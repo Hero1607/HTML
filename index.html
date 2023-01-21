@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+    <!-- <html> Bu yerda body va head qismi yoziladi</html>  -->
+    <head>
+        
+        <!-- <title>bu yerda websitening nomi yoziladi</title>  -->
+        <title>Telegram Account</title>
+        
+    </head>
+    
+    <body>
+        <!-- <h1>Website boshidagi katta harflar</h1> ... h6 gacha -->
+        <h1 style="text-align: center; background-color: black; color: white; padding: 30px">Tana qismi</h1>
+        
+        
+        <!-- <p>Matn yoziladigan joy</p> -->
+        <!-- <strong>matnni ichidagi ajralib turishi uchun jirniy qilib qoyadi</strong> -->
+        
+        <p>Mening telegram accountim</p>
+        
+        <!-- <a>bironta bir link qoyilsa osha linkni ichiga kiradi</a>-->
+        <!-- href = "bu yerga linkni mazili yoziladi"-->
+        <!-- target = "_blank" shu narsa yozilganda osha linkni ochish uchun qoshimcha oyna ochioladi-->
+        <a href="https://t.me/max_8115" target="_blank">Muhammad Yusuf</a>
+        
+        <p>Ro'yxat</p>
+        <!-- <ul>Bu yerga royxat yoziladi <ul> ning vazifasi sozlarni boshi * shunga oxshash narsa yoziladi</ul> -->
+        <ul>
+            <!--<li>Buning ichiga sozlar yoziladi va keyingi qatorga ozi otib ketadi</li> -->
+            <li>Xushnud</li>
+            <li>Akbar</li>
+            <li>Muhamadali</li>
+            <li>Bek</li>
+        </ul>
+        
+        <ol>
+            <!-- <ol> <ol> ning vazifasi sozlarni tartiblab yani 1 dan boshlab yozib ketadi</ol> -->
+            <li>Xushnud</li>
+            <li>Akbar</li>
+            <li>Muhamadali</li>
+            <li>Bek</li>
+        </ol>
+        
+        <table>
+            <!-- <table>bu yerga jadval yoziladi</table>-->
+            <thead>
+                <!-- <thead>bu jadvalning 1chi va asosiy qatori</head>--> 
+                <tr>
+                    <!--  <tr></tr> jadvalni pas qatorlardagi malumotlar-->
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Number</th>
+                    <!-- <th></th> jadvaldagi asosiy sozlar jirniy holda yoziladi-->
+                </tr>    
+            </thead>
+            
+            <tbody>
+                <!-- <tbody></tbody> bu <thead>ning pastiga yoziladigan sozlar-->
+                <tr>
+                    <td>Bek</td>
+                    <td><a href ="https://bek@gmail.com" target="_blank">bek@gmail.com</a></td>
+                    <td>90 9515284</td>                
+                </tr>
+                <tr>
+                    <td>Muhammad Yusuf</td>
+                    <td><a href="https://orinboyevmuhammadyusuf800@gmail.com" target="_blank">muhammadyusuf800@gmail.com</a></td>
+                    <td>90 3848115</td>                
+                </tr>
+            
+            </tbody>
+        </table>
+        
+        <br> <!--<br> bu bir marta enter tashlab yuboradi -->
+        <hr> <!--<hr> bu tekkiz gorizontal chiziq bilan ajratib qoyadi-->
+        
+        <img src="user7.jpg" width="350">
+        <hr>
+        <form>
+            <!--<from></from> Bu malumotlarni yozish uchun kk-->
+            <label for="fname">
+                <!--<label></label> nima malumot olishni sorash uchun bu xabar malumot kiritiladigan joydan oldin keladi--> 
+                <!--for = "bu yerga istalgan" narsa yoziladi lekin shu narsa id="" va name="" ga ham yozilishi kerak va qayta boshqa labelga yoshi mumkin emas-->
+                First Name: 
+                    <!--First Name ni orniga ishtalgan narsa yozish mumkin-->
+                    <input type="text" placeholder="First name" id="fname" name="fname">
+                    <!--input foydalanuvchidan malumotlarni qabul qilib olish uchun kk-->
+                    <!--type="kiritilayotgan malumot turi" -->
+                    <!--placeholder="first name" buning sababi soralayotgan narsa yoziladigan joyda chiqishi uchun -->
+            </label>
+            <br> <br>
+            <label for="age">
+                Your Age:
+                <input type="number" placeholder="age" id="age" name="age">
+            
+            </label>
+            <br> <br>
+            <label for="password">
+                Password:
+                <input type="password" placeholder="password" id="password" name="password">
+            
+            </label>
+            <br> <br>
+            <label for="isMarried">
+                Is Married:
+                <input type="checkbox" id="isMarried" name="isMarried">            
+            
+            </label>
+            <br> <br>
+            <label for="gender">
+                Gender:
+                <input type="radio" id="gender" name="gender">
+                <input type="radio" id="gender" name="gender">
+            
+            
+            </label>
+            <br> <br>
+            <label for="country">
+                Where are you from?
+                <select>
+                    <!---->
+                    <option value="us">USA</option>
+                    <option value="uk">UK</option>
+                    <option value="uz">UZEKISTAN</option>
+                
+                </select>
+            
+            </label>
+        
+        </form>
+        
+        <p style="text-align: center; background-color: red; color: black; padding: 30px"><strong>CopyRight CityTech Tashkent</strong></p>
+        
+    
+    </body>
+
+</html>
